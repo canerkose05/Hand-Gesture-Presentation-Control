@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Machine Learning Project - Team 14</title>
+
+  <link rel="stylesheet" href="static/dist/reset.css">
+  <link rel="stylesheet" href="static/dist/reveal.css">
+  <link rel="stylesheet" href="static/dist/theme/black.css" id="theme">
+  <link rel="stylesheet" href="static/plugin/highlight/monokai.css" id="highlight-theme">
+
+  <style>
+    .rotatable {
+      transition: all 0.25s ease-in;
+    }
+  </style>
+
+  <!-- in here you'll find initializers for the websockets and some helper methods -->
+  <script src="static/helper_methods.js"></script>
+
+  <!-- this script holds code that listens on websocket events -->
+  <script src="static/slideshow_event_listeners.js"></script>
+ </head>
+
+ <body>
+  <div class="reveal">
+    <div class="slides">
+       <section data-markdown>
+         # Machine Learning Project
+         ## Team 14
+       </section>
+   
+       <section data-markdown>
+         Our gesture classifier allows the following gestures:
+         - swipe_left & swipe_right
+         - rotate_right & rotate_left
+        </section>
+        
+      <section>
+         <section data-markdown>
+           It also allows
+           ### swipe_down
+         </section>
+   
+         <section data-markdown>
+           and
+           ### swipe_up
+         </section>
+       </section>
+   
+        <section><img src="static/images/1.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/2.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/3.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/4.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/5.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/6.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/7.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/8.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/9.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/10.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/11.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/12.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/13.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/14.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/15.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/16.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/17.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/18.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/19.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/20.jpg" class="rotatable" alt=""></section>
+        <section><img src="static/images/21.jpg" class="rotatable" alt=""></section>
+    </div>
+ </div>
+ 
+
+
+  <script src="static/dist/reveal.js"></script>
+  <script src="static/plugin/notes/notes.js"></script>
+  <script src="static/plugin/markdown/markdown.js"></script>
+  <script src="static/plugin/highlight/highlight.js"></script>
+
+  <script>
+    // More info about config & dependencies:
+    // - https://github.com/hakimel/reveal.js#configuration
+    // - https://github.com/hakimel/reveal.js#dependencies
+    Reveal.initialize({
+      hash: true,
+      loop: true,
+      plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+    });
+  </script>
+ </body>
+</html>

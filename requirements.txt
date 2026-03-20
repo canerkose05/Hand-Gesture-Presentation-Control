@@ -1,0 +1,10 @@
+opencv-python
+numpy
+mediapipe==0.10.9
+pandas
+pyyaml
+matplotlib
+seaborn
+requests
+python-socketio[asyncio_client]
+sanic
